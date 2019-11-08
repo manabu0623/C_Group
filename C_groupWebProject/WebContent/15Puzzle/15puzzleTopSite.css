@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+.topText {
+	margin-top: 250px;
+}
+
+.explanationText {
+	position: absolute;
+	margin: 50px auto;
+	left: 0px;
+	right: 0px;
+	width: 1000px;
+	height: 700px;
+}
+
+.explanationText > p {
+	margin-top: 40px;
+	width: 600px;
+	text-align: left;
+	line-height: 45px;
+}
+
+img[src="15PuzzleTexture/StartImg.png"] {
+	position: absolute;
+	top: 80px;
+	right: 0px;
+}
+
+img[src="15PuzzleTexture/GameImg.png"] {
+	position: absolute;
+	top: 780px;
+	right: 0px;
+}
+
+.explanationText > p.tips {
+	margin-top: 40px;
+	width: 100%;
+	text-align: center;
+	line-height: 2em;
+}
